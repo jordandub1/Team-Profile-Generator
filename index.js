@@ -292,4 +292,6 @@ const noMore = () => {
 	const finalTeam = render(employeeCards);
 	
 	fs.writeFileSync('./dist/team.html', finalTeam)
+
+	console.log(`Success. Output is under the ./dist folder!`);
 }
