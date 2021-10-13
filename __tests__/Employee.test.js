@@ -8,25 +8,25 @@ test("Can instantiate employee instance", () => {
 })
 
 test("Can set employee name using constructor", () => {
-    const name = "Alex";
+    const name = "Jordan";
     const emp = new Employee(name);
     expect(emp.name).toBe(name);
 })
 
 test("Can set employee id using Employee constructor", () => {
-    const id = 123;
-    const emp = new Employee("Alex", 123);
+    const id = 123456;
+    const emp = new Employee("Jordan", 123456);
     expect(emp.id).toBe(id);
 })
 
 test("Can set employee email using Employee constructor", () => {
-    const email = "alexhstrickland@gmail.com";
-    const emp = new Employee("Alex", 123, email);
+    const email = "jordan.dubose1@gmail.com";
+    const emp = new Employee("Jordan", 123456, email);
     expect(emp.email).toBe(email);
 })
 
 test("Can set employee role using Employee constructor", () => {
     const role = "Employee";
-    const emp = new Employee("Alex", 123, "alexhstrickland@gmail.com", role);
+    const emp = new Employee("Jordan", 123456, "jordan.dubose1@gmail.com", role);
     expect(emp.role).toBe(role);
 })

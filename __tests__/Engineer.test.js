@@ -7,31 +7,31 @@ test("Can instantiate engineer instance", () => {
 })
 
 test("Can set engineer name using constructor", () => {
-    const name = "Alex";
+    const name = "Jordan";
     const emp = new Engineer(name);
     expect(emp.name).toBe(name);
 })
 
 test("Can set engineer id using Engineer constructor", () => {
-    const id = 123;
-    const emp = new Engineer("Alex", 123);
+    const id = 123456;
+    const emp = new Engineer("Jordan", 123456);
     expect(emp.id).toBe(id);
 })
 
 test("Can set engineer email using Engineer constructor", () => {
-    const email = "alexhstrickland@gmail.com";
-    const emp = new Engineer("Alex", 123, email);
+    const email = "jordan.dubose1@gmail.com";
+    const emp = new Engineer("Jordan", 123456, email);
     expect(emp.email).toBe(email);
 })
 
 test("Can set engineer github username using Engineer constructor", () => {
-    const github = "alexhstrickland";
-    const emp = new Engineer("Alex", 123, "alexhstrickland@gmail.com", github);
+    const github = "jordandub1";
+    const emp = new Engineer("Jordan", 123456, "jordan.dubose1@gmail.com", github);
     expect(emp.github).toBe(github);
 })
 
 test("Can set engineer role using Engineer constructor", () => {
     const role = "Engineer";
-    const emp = new Engineer("Alex", 123, "alexhstrickland@gmail.com", "alexhstrickland", role);
+    const emp = new Engineer("Jordan", 123456, "jordan.dubose1@gmail.com", "jordandub1", role);
     expect(emp.role).toBe(role);
 })

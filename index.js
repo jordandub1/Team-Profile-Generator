@@ -237,7 +237,7 @@ const generateCards = (emp) => {
 						<ul class="list-group list-group-flush">
 							<li class="list-group-item">ID: ${emp.id}</li>
 							<li class="list-group-item">Email: </br><a href = 'mailto: ${emp.email}'>${emp.email}</a></li>
-							<li class="list-group-item">Phone: ${emp.officeNumber}</li>
+							<li class="list-group-item">Office Number: ${emp.officeNumber}</li>
 						</ul>
 					</div>
 				</div>
